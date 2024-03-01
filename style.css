@@ -1,0 +1,86 @@
+/*.item{display: flex;
+	flex-direction: row;
+	widht: 150px;
+	height: 250px;
+	
+	
+	
+	background-image: url("Raynice.jpg");
+    background-size: cover;
+    background-position: center;
+}*/
+/*
+.grad{
+	display: flex;
+	flex-direction: row;
+	widht: 150px;
+	height: 250px;
+	
+		
+	background-image: url("bar.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sport{
+	display: flex;
+	flex-direction: row;
+	widht: 150px;
+	height: 250px;
+	
+	
+	
+	background-image: url("Escol.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.spetin{
+	display: flex;
+	 flex-direction: row;
+	 widht: 150px;
+	 height: 250px;
+   
+   background-image: url("Spetin.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+*/
+#teste {
+  text-align: center;
+  padding-left: 9vw; 
+  background-color:Red;
+}
+#teste2 {
+  
+   
+  background-color:blueviolet;
+}
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+.item{
+	display: flex;
+	max-height: 30vh;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.grade{
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: repeat(4, 1fr);
+	/*background-image: url("bar.jpg");
+    */
+    grid-gap: 10px;
+
+}
+

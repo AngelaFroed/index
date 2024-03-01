@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  .grade {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+#teste {
+    font-size: 4vw; 
+    padding-left: 5vw; 
+  }
+
+
+
+img {
+    max-width: 100%; 
+    height: auto; 
+  }
+}
